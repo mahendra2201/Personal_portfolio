@@ -5125,3 +5125,119 @@ a img {
     margin: 0;
     color: #fff
 }
+h3.form-title {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #fff; /* White color for form title */
+  }
+  
+  #contact-form {
+    background-color: #1488CC; /* Dark background for form */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px white;
+    max-width: 600px;
+    width: 100%;
+    margin: auto; /* Ensure the form is centered horizontally */
+  }
+  
+  /* Form Title */
+  #contact-form .form-title {
+    font-size: 24px;
+    font-weight: bold;
+    color: #fff; /* White color for form title */
+  }
+  
+  /* Input Wrapper */
+  #contact-form .input-wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+  }
+  
+  /* Input Fields */
+  #contact-form .form-input {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid white; /* Dark border for inputs */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 10px;
+    background-color:white; /* Dark background for inputs */
+    color: black; /* White text color for inputs */
+    transition: border-color 0.3s;
+  }
+  
+  #contact-form .form-input:focus {
+    border-color: #007BFF;
+    outline: none;
+  }
+  
+  /* Textarea */
+  #contact-form textarea {
+    resize: vertical;
+    min-height: 150px;
+    padding: 12px;
+    border: 1px solid #555; /* Dark border for textarea */
+    border-radius: 5px;
+    font-size: 16px;
+    margin-bottom: 20px;
+    width: 100%;
+    background-color: #444; /* Dark background for textarea */
+    color: #fff; /* White text color for textarea */
+  }
+  
+  /* Submit Button */
+  #contact-form .form-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color:#555;
+    color: white;
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+  }
+  
+  #contact-form .form-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  #contact-form .form-btn ion-icon {
+    margin-right: 10px;
+  }
+  
+  /* Media Queries for Responsiveness */
+  @media (max-width: 768px) {
+    #contact-form .input-wrapper {
+      flex-direction: column;
+    }
+  
+    #contact-form .form-input {
+      width: 100%;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    #contact-form {
+      padding: 20px;
+      max-width: 100%;
+    }
+  
+    #contact-form .form-title {
+      font-size: 22px;
+    }
+  
+    #contact-form .form-input {
+      font-size: 14px;
+    }
+  
+    #contact-form .form-btn {
+      font-size: 14px;
+      padding: 10px 20px;
+    }
+  }
