@@ -5241,3 +5241,8 @@ h3.form-title {
       padding: 10px 20px;
     }
   }
+  #about-me {
+    text-align: justify; /* Justify text */
+    margin: 0 auto; /* Center the paragraph horizontally */
+    width: 80%; /* Optional: Set a specific width for better centering */
+  }
